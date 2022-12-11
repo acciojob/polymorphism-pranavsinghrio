@@ -21,6 +21,7 @@ public class Main
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         Product p = new Product();
         System.out.println(p.Product(1,2));
         System.out.println(p.Product(2,3,4));

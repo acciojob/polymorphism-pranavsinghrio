@@ -7,15 +7,15 @@ import java.lang.*;
 public class Main
 {
     static class Product{
-        public int product(int a,int b){
+        int product(int a,int b){
             int c = a*b;
             return c;
         }
-        public int product(int a,int b,int c){
+         int product(int a,int b,int c){
             int d = a*b*c;
             return d;
         }
-        public double product(double a,double b){
+         double product(double a,double b){
             double ans = a*b;
             return ans;
         }

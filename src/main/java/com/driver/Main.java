@@ -6,25 +6,26 @@ import java.lang.*;
 public class Main
 {
     public static class Product{
-        public int Product(int a, int b){
 
-            return a*b;
+        public int product(int a,int b){
+
+            return a*b ;
         }
-         public int Product(int a, int b, int c){
-             int i = a * b * c;
-             return i;
+        public int product(int a,int b,int c){
+
+            return a*b*c ;
         }
-         public double Product(double a, double b){
-            double ans = a*b;
-            return ans;
+        public double product(double a,double b){
+
+            return (double)a*b ;
         }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         Product p = new Product();
-        System.out.println(p.Product(1,2));
-        System.out.println(p.Product(2,3,4));
-        System.out.println(p.Product(1.2,3.4));
+
+        p.product(1,2);
+        p.product(2,3,4);
+        p.product(1.2,3.4);
     }
 }

@@ -6,7 +6,7 @@ import java.lang.*;
 
 public class Main
 {
-    static class Product{
+    public static class Product{
         int product(int a,int b){
             int c = a*b;
             return c;
